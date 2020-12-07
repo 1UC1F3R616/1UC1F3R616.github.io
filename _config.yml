@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: 1UC1F3R616
+email: 1uc1f3r616@wearehackerone.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+twitter_username: 1R616
+github_username: 1UC1F3R616
+minimal_mistakes_skin: default # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 
 # Build settings
@@ -31,7 +31,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Calcutta # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -58,34 +58,31 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Kush Choudhary"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "InfoSec Student, Visionary"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/1UC1F3R616"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/kush-choudhary-567b38169/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/1R616"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/1uc1f3r616"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "HackerByte"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://t.me/HackerByteHere"
+    - label: "Discord"
+      icon: "fas fa-fw fa-link"
+      url: "https://discord.com/users/658295851000659998"
 
 defaults:
   # _posts
@@ -96,9 +93,17 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      words_per_minute: 120
       comments: true
       share: true
       related: true
+    comments:
+      provider: "facebook"
+      facebook:
+        appid: # optional
+        num_posts: # 5 (default)
+        colorscheme: # "light" (default), "dark"
+
   # _pages
   - scope:
       path: "_pages"
@@ -113,3 +118,10 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+analytics:
+provider: "google-gtag"
+google:
+  tracking_id: "G-BHJEZYPZQ5"
+  anonymize_ip: false # default
+
