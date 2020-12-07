@@ -83,6 +83,9 @@ footer:
     - label: "Discord"
       icon: "fas fa-fw fa-link"
       url: "https://discord.com/users/658295851000659998"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/c/kushchoudhary/"
 
 defaults:
   # _posts
@@ -101,8 +104,8 @@ defaults:
       provider: "facebook"
       facebook:
         appid: # optional
-        num_posts: # 5 (default)
-        colorscheme: # "light" (default), "dark"
+        num_posts: 5 # 5 (default)
+        colorscheme: light # "light" (default), "dark"
 
   # _pages
   - scope:

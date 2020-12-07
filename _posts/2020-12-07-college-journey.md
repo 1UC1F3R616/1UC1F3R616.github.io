@@ -2,9 +2,7 @@
 title: "College Journey"
 last_modified_at: 2020-12-07T16:20:02-05:00
 categories:
-  - blog
-tags:
-  - self
+  - self-blog
 ---
 
 I started coding in year 2018, that is my Sem 1 of college. Before that I only had some very introductory knowledge about coding. I am adding how my sem wise journey has been so far w.r.t learning how to code
