@@ -18,6 +18,10 @@ Role: Backend Dev && Cyber Security Specialist
 
 Objectives: Working on projects assigned after ideathon, teaming up to organize events. Conduct Pentesting and helping each other as being a part of community
 
+Events Organized:
+- Women Techies 2020
+- Knockouts v1
+
 Dec 2019 - Nov 2020
 ```
 
