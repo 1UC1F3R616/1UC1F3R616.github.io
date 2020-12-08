@@ -1,16 +1,12 @@
 ---
 title: "Github Collaboration Network"
 last_modified_at: 2020-12-07T16:20:02-05:00
+excerpt: "एनालाइज किया का?"
+header:
+  overlay_color: "#333"
 categories:
   - project
 tags:
-  - FastAPI
-  - <img src="https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python" width="40" height="40">
-  - SemanticUI
-  - web-scraping
-  - heroku-hosted
-  - social-network-analysis
-  - Graphs
   - college-project
 ---
 

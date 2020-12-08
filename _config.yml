@@ -74,6 +74,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/1uc1f3r616"
+    - label: "Resume"
+      icon: "fas fa-fw fa-download"
+      url: "https://docs.google.com/document/d/14eQx9vYQai97zAIKm0q0mUJy19LX8G1ITwfvvc8d5Cs/edit?usp=sharing" 
 
 footer:
   links:
@@ -100,12 +103,6 @@ defaults:
       comments: true
       share: true
       related: true
-    comments:
-      provider: "facebook"
-      facebook:
-        appid: # optional
-        num_posts: 5 # 5 (default)
-        colorscheme: light # "light" (default), "dark"
 
   # _pages
   - scope:
@@ -114,6 +111,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+# Comments provider
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark", "github-light"
+    issue_term: "pathname"
 
 category_archive:
   type: liquid

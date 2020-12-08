@@ -1,16 +1,12 @@
 ---
 title: "Session Hijack 101"
 last_modified_at: 2020-12-08T16:20:02-05:00
+excerpt: "One click account takeover"
+header:
+  overlay_color: "#333"
 categories:
   - project
 tags:
-  - FastAPI
-  - <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" width="40" height="40">
-  - <img src="https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python" width="40" height="40">
-  - <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-  - SemanticUI
-  - heroku-hosted
-  - cyber-security
   - college-project
 ---
 
