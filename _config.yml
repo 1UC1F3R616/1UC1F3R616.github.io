@@ -24,6 +24,8 @@ github_username: 1UC1F3R616
 minimal_mistakes_skin: default # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 
+repository: "1UC1F3R616/1UC1F3R616.github.io"
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -90,6 +92,9 @@ footer:
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://youtube.com/c/kushchoudhary/"
+    - label: "TryHackMe"
+      icon: ""
+      url: "https://tryhackme.com/p/1uc1f3r616"
 
 defaults:
   # _posts
@@ -113,11 +118,10 @@ defaults:
       layout: single
       author_profile: true
 
-# Comments provider
 comments:
   provider: "utterances"
   utterances:
-    theme: "github-light" # "github-dark", "github-light"
+    theme: "github-light" # "github-dark"
     issue_term: "pathname"
 
 category_archive:
