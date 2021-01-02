@@ -76,10 +76,10 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/1uc1f3r616"
-    - label: "Resume"
-      icon: "fas fa-fw fa-download"
-      url: "https://drive.google.com/file/d/1ON4f3zymkLMhhtvNcU3B_Cjrr5ckoX9u/view?usp=sharing"
-      # url: "https://docs.google.com/document/d/14eQx9vYQai97zAIKm0q0mUJy19LX8G1ITwfvvc8d5Cs/edit?usp=sharing" 
+    #- label: "Resume"
+    #  icon: "fas fa-fw fa-download"
+    #  url: "https://drive.google.com/file/d/1ON4f3zymkLMhhtvNcU3B_Cjrr5ckoX9u/view?usp=sharing"
+    #  # url: "https://docs.google.com/document/d/14eQx9vYQai97zAIKm0q0mUJy19LX8G1ITwfvvc8d5Cs/edit?usp=sharing" 
 
 footer:
   links:
