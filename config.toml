@@ -139,7 +139,7 @@ disableHugoGeneratorInject = false
     weight     = 6
     identifier = "resume"
     name       = "Resume"
-    url        = ""
+    url        = "https://drive.google.com/file/d/1V2xTX19Mv8_nK_dNP6osuMs2c-an2udW/view?usp=sharing"
   [[menu.main]]
     weight     = 1
     identifier = "posts"
