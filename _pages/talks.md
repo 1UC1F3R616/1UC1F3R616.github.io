@@ -1,4 +1,0 @@
----
-permalink: /talks/
-title: "Talks"
----

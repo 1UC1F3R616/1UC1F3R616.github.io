@@ -1,7 +1,1 @@
-_site
-.sass-cache
-.jekyll-metadata
-Gemfile.lock
-/sample_posts
-/pages_decapricated
-/scheduled_posts
+public

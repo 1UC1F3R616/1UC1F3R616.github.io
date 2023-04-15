@@ -1,0 +1,154 @@
+baseURL = ""
+title   = "Kush Choudhary"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Kush Choudhary"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[markup.goldmark.renderer]
+  unsafe= true
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "My personal website"
+  keywords = "Kush Choudhary"
+  images = [""]
+
+  homeSubtitle = "My personal website"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = [
+    "css/flag-icon.min.css",
+    "css/kush.css"
+  ]
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false  # Set "text-align: justify" to .content.
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
+
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText     = "┌──[kush@1uc1f3r616]─[/]"
+    logoText2    = "└──╼ $ "
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    logoCursorColor    = "#2568fb"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+  [params.portrait]
+    path = "/img/avatar.png"
+    alt = "Portrait"
+
+  # Social icons
+
+  [[params.social]]
+    name = "github"
+    desc = "Github"
+    url  = "https://github.com/1uc1f3r616"
+    external = true
+
+  [[params.social]]
+    name = "twitter"
+    desc = "Twitter"
+    url  = "https://twitter.com/1r616"
+    external = true
+
+  [[params.social]]
+    name = "youtube"
+    desc = "YouTube"
+    url  = "https://www.youtube.com/c/kushchoudhary"
+    external = true
+
+  [[params.social]]
+    name = "linkedin"
+    desc = "Linkedin"
+    url  = "https://www.linkedin.com/in/kush-choudhary"
+    external = true
+
+
+[languages]
+  [languages.en]
+    subtitle  = "kush.choudhary"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+[menu]
+  [[menu.external]]
+    weight     = 6
+    identifier = "resume"
+    name       = "Resume"
+    url        = ""
+  [[menu.main]]
+    weight     = 1
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+  [[menu.main]]
+    weight     = 2
+    identifier = "hire"
+    name       = "HireMe"
+    url        = "hire/"
+
+
